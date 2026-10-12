@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="David Muñoz Olaya, Android Developer. Desarrollo aplicaciones útiles, soluciones mantenibles y productos digitales.">
+  <meta name="theme-color" content="#151619">
+  <meta property="og:title" content="David Muñoz Olaya — Android Developer">
+  <meta property="og:description" content="Building useful apps. Solving real problems.">
+  <meta property="og:type" content="website">
+  <title>David Muñoz Olaya — Android Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Saltar al contenido</a>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="David Muñoz Olaya, inicio">
+      <span class="brand-mark" aria-hidden="true">d<span>.</span></span>
+      <span>David Muñoz Olaya</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="sr-only" data-i18n="menu">Abrir menú</span><span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Navegación principal">
+      <a href="#about" data-i18n="navAbout">Sobre mí</a>
+      <a href="#projects" data-i18n="navProjects">Proyectos</a>
+      <a href="#toolbox" data-i18n="navToolbox">Tecnologías</a>
+      <a href="#contact" data-i18n="navContact">Contacto</a>
+      <button class="language-toggle" type="button" aria-label="Switch language">EN</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span><span data-i18n="eyebrow">ANDROID DEVELOPER · PRODUCT BUILDER</span></p>
+        <h1 id="hero-title" data-i18n-html="heroTitle">Creo aplicaciones útiles.<br>Resuelvo <span class="accent">problemas reales.</span></h1>
+        <p class="hero-description" data-i18n="heroDescription">Soy David, desarrollador Android. Me gusta convertir problemas cotidianos en productos digitales claros, útiles y mantenibles.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><span data-i18n="ctaProjects">Ver proyectos</span><span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact" data-i18n="ctaContact">Hablemos</a>
+        </div>
+        <div class="social-links" aria-label="Enlaces profesionales">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <!-- TODO: replace with your real email address -->
+          <a href="mailto:hello@example.com" data-i18n="emailLink">Email <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Composición gráfica abstracta">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="shape shape-circle"></div>
+        <div class="shape shape-square"></div>
+        <div class="shape shape-ring"></div>
+        <div class="code-card">
+          <span class="code-card-label">KOTLIN / ANDROID</span>
+          <code><span class="code-purple">fun</span> buildProduct() {<br>&nbsp;&nbsp;<span class="code-green">solve</span>(realProblem)<br>&nbsp;&nbsp;<span class="code-green">keepIt</span>(simple = <span class="code-purple">true</span>)<br>}</code>
+        </div>
+        <p class="art-note" data-i18n="artNote">Ideas claras.<br>Software útil.</p>
+        <span class="art-index">DMO — 001</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span><span data-i18n="scroll">Desliza para descubrir</span></a>
+    </section>
+
+    <section class="section section-wrap about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="aboutEyebrow">UN POCO SOBRE MÍ</p>
+        <h2 data-i18n-html="aboutTitle">Ingeniería con intención.<br><span class="muted">Productos con propósito.</span></h2>
+      </div>
+      <div class="about-content">
+        <p class="about-lead" data-i18n="aboutLead">Disfruto construyendo software que sea fácil de entender, mantener y utilizar.</p>
+        <p class="body-copy" data-i18n="aboutBody">Mi foco está en el desarrollo Android con Kotlin, la arquitectura limpia y las buenas decisiones técnicas. También creo proyectos propios para explorar ideas de principio a fin, desde el problema hasta la experiencia de usuario.</p>
+        <div class="principles">
+          <div><span>01</span><strong data-i18n="principleOne">Simplicidad antes que complejidad</strong></div>
+          <div><span>02</span><strong data-i18n="principleTwo">Arquitectura preparada para evolucionar</strong></div>
+          <div><span>03</span><strong data-i18n="principleThree">Aprender construyendo</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-wrap projects-section" id="projects">
+      <div class="section-topline">
+        <div>
+          <p class="eyebrow" data-i18n="projectsEyebrow">TRABAJO SELECCIONADO</p>
+          <h2 data-i18n="projectsTitle">Proyectos destacados</h2>
+        </div>
+        <span class="section-count">01 / 03</span>
+      </div>
+      <article class="project-card">
+        <div class="project-visual aqua-visual">
+          <div class="aqua-orb"></div>
+          <div class="aqua-drop">A</div>
+          <div class="aqua-label aqua-label-top">DAILY HABIT / 01</div>
+          <div class="aqua-label aqua-label-bottom">AQUA REMINDER</div>
+          <div class="water-line water-line-one"></div>
+          <div class="water-line water-line-two"></div>
+        </div>
+        <div class="project-details">
+          <div class="project-meta"><span data-i18n="personalProject">PROYECTO PERSONAL</span><span>2026 — IN PROGRESS</span></div>
+          <h3>AquaReminder</h3>
+          <p data-i18n="aquaDescription">Una aplicación para convertir la hidratación en un hábito sencillo: seguimiento diario, recordatorios y una experiencia visual tranquila.</p>
+          <ul class="tag-list" aria-label="Tecnologías">
+            <li>Android</li><li>Kotlin</li><li>Jetpack Compose</li><li>Room</li>
+          </ul>
+          <a class="text-link" href="mailto:hello@example.com?subject=AquaReminder" data-i18n="aquaLink">Pregúntame por el proyecto <span aria-hidden="true">↗</span></a>
+          <p class="project-note" data-i18n="projectNote">Caso de estudio en preparación. Sustituye esta tarjeta por capturas reales cuando estén listas.</p>
+        </div>
+      </article>
+      <p class="coming-soon" data-i18n="moreProjects">Más proyectos y casos de estudio próximamente.</p>
+    </section>
+
+    <section class="section section-wrap toolbox-section" id="toolbox">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="toolboxEyebrow">HERRAMIENTAS Y ENFOQUE</p>
+        <h2 data-i18n="toolboxTitle">Mi caja de herramientas</h2>
+      </div>
+      <div class="toolbox-grid">
+        <article class="toolbox-item"><span class="toolbox-number">01</span><h3>Android</h3><p>Kotlin · Jetpack Compose · XML</p></article>
+        <article class="toolbox-item"><span class="toolbox-number">02</span><h3 data-i18n="toolboxArchitecture">Arquitectura</h3><p>MVVM · Clean Architecture · SOLID</p></article>
+        <article class="toolbox-item"><span class="toolbox-number">03</span><h3 data-i18n="toolboxQuality">Calidad</h3><p>JUnit · MockK · Code review</p></article>
+        <article class="toolbox-item"><span class="toolbox-number">04</span><h3>Tooling</h3><p>Git · Bitbucket · Jenkins</p></article>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <p class="eyebrow" data-i18n="contactEyebrow">¿TIENES UNA IDEA?</p>
+      <h2 data-i18n-html="contactTitle">Hagamos algo<br><span class="accent">que merezca existir.</span></h2>
+      <p data-i18n="contactDescription">Estoy abierto a conversar sobre productos, colaboraciones y retos interesantes.</p>
+      <a class="button button-primary" href="mailto:hello@example.com" data-i18n="contactCta">Escríbeme <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="brand" href="#home"><span class="brand-mark">d<span>.</span></span><span>David Muñoz Olaya</span></a>
+    <p>© <span id="year"></span> David Muñoz Olaya. <span data-i18n="footer">Hecho con intención y JavaScript vanilla.</span></p>
+    <a href="#home" class="back-top" data-i18n="backTop">Volver arriba ↑</a>
+  </footer>
+</body>
+</html>
