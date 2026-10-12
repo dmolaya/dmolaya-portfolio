@@ -23,8 +23,8 @@ const translations = {
     contactEyebrow: "¿TIENES UNA IDEA?",
     contactTitle: 'Hagamos algo<br><span class="accent">que merezca existir.</span>',
     contactDescription: "Estoy abierto a conversar sobre productos, colaboraciones y retos interesantes.",
-    contactCta: 'Escríbeme <span aria-hidden="true">↗</span>',
-    footer: "Hecho con intención y JavaScript vanilla.", backTop: "Volver arriba ↑"
+    contactCta: 'Escríbeme <span class="button-arrow" aria-hidden="true">↗</span>',
+    footer: "Software útil, pensado para las personas.", backTop: "Volver arriba ↑"
   },
   en: {
     skip: "Skip to content", menu: "Open menu",
@@ -50,8 +50,8 @@ const translations = {
     contactEyebrow: "HAVE AN IDEA?",
     contactTitle: 'Let’s build something<br><span class="accent">worth existing.</span>',
     contactDescription: "I'm open to conversations about products, collaborations and interesting challenges.",
-    contactCta: 'Get in touch <span aria-hidden="true">↗</span>',
-    footer: "Made with intent and vanilla JavaScript.", backTop: "Back to top ↑"
+    contactCta: 'Get in touch <span class="button-arrow" aria-hidden="true">↗</span>',
+    footer: "Useful software, built with people in mind.", backTop: "Back to top ↑"
   }
 };
 
