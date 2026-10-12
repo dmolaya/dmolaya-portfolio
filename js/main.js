@@ -71,7 +71,10 @@ function setLanguage(language) {
     const value = translations[language][element.dataset.i18nHtml];
     if (value !== undefined) element.innerHTML = value;
   });
-  languageToggle.textContent = language === "es" ? "EN" : "ES";
+  languageToggle.dataset.active = language;
+  languageToggle.querySelectorAll("[data-lang]").forEach((option) => {
+    option.classList.toggle("is-active", option.dataset.lang === language);
+  });
   languageToggle.setAttribute("aria-label", language === "es" ? "Switch to English" : "Cambiar a español");
   try { localStorage.setItem("portfolio-language", language); } catch (_) { /* Storage may be unavailable. */ }
 }
