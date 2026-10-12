@@ -17,7 +17,6 @@ const translations = {
     aquaDescription: "Una aplicación para convertir la hidratación en un hábito sencillo: seguimiento diario, recordatorios y una experiencia visual tranquila.",
     aquaLink: 'Ver el proyecto <span aria-hidden="true">↗</span>',
     projectNote: "Caso de estudio en preparación. Sustituye esta tarjeta por capturas reales cuando estén listas.",
-    moreProjects: "Más proyectos y casos de estudio próximamente.",
     toolboxEyebrow: "HERRAMIENTAS Y ENFOQUE", toolboxTitle: "Mi caja de herramientas",
     toolboxArchitecture: "Arquitectura", toolboxQuality: "Calidad",
     contactEyebrow: "¿TIENES UNA IDEA?",
@@ -58,7 +57,6 @@ const translations = {
     aquaDescription: "An app designed to make hydration a simple habit through daily tracking, reminders and a calm visual experience.",
     aquaLink: 'View the project <span aria-hidden="true">↗</span>',
     projectNote: "Case study in progress. Replace this card with real screenshots when they're ready.",
-    moreProjects: "More projects and case studies coming soon.",
     toolboxEyebrow: "TOOLS AND APPROACH", toolboxTitle: "My toolbox",
     toolboxArchitecture: "Architecture", toolboxQuality: "Quality",
     contactEyebrow: "HAVE AN IDEA?",
@@ -136,6 +134,16 @@ if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-mot
   }, { threshold: 0.12 });
   revealTargets.forEach((target) => revealObserver.observe(target));
 }
+
+const toTop = document.createElement("button");
+toTop.type = "button";
+toTop.className = "to-top";
+toTop.innerHTML = '<span class="sr-only" data-i18n="backTop">Volver arriba ↑</span><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V5M5 11.5 12 4.5l7 7"/></svg>';
+document.body.append(toTop);
+toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+const updateToTop = () => toTop.classList.toggle("is-visible", window.scrollY > 600);
+window.addEventListener("scroll", updateToTop, { passive: true });
+updateToTop();
 
 try {
   const savedLanguage = localStorage.getItem("portfolio-language");
