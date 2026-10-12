@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AquaReminder: una app Android para convertir la hidratación en un hábito sencillo.">
+  <meta name="theme-color" content="#151619">
+  <title>AquaReminder — David Muñoz Olaya</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Saltar al contenido</a>
+
+  <header class="site-header">
+    <a class="brand" href="index.html#home" aria-label="David Muñoz Olaya, inicio">
+      <span class="brand-mark" aria-hidden="true">d<span>.</span></span>
+      <span>David Muñoz Olaya</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="sr-only" data-i18n="menu">Abrir menú</span><span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Navegación principal">
+      <a href="index.html#about" data-i18n="navAbout">Sobre mí</a>
+      <a href="index.html#projects" data-i18n="navProjects">Proyectos</a>
+      <a href="index.html#toolbox" data-i18n="navToolbox">Tecnologías</a>
+      <a href="index.html#contact" data-i18n="navContact">Contacto</a>
+      <button class="language-toggle" type="button" aria-label="Switch to English"><span class="is-active" data-lang="es">ES</span><span data-lang="en">EN</span></button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="section-wrap project-page-hero">
+      <a class="back-link" href="index.html#projects" data-i18n="backToProjects">← Todos los proyectos</a>
+      <div class="project-page-intro">
+        <img class="project-page-logo" src="assets/aquareminder-logo.svg" alt="Logo de AquaReminder" width="160" height="160">
+        <div>
+          <p class="eyebrow" data-i18n="aquaPageEyebrow">PROYECTO PERSONAL · 2026</p>
+          <h1>AquaReminder</h1>
+          <p class="hero-description" data-i18n="aquaPageLead">Una app Android para convertir la hidratación en un hábito sencillo.</p>
+        </div>
+      </div>
+      <dl class="project-facts">
+        <div><dt data-i18n="factStatus">Estado</dt><dd data-i18n="factStatusValue">En desarrollo</dd></div>
+        <div><dt data-i18n="factRole">Rol</dt><dd data-i18n="factRoleValue">Diseño y desarrollo</dd></div>
+        <div><dt data-i18n="factPlatform">Plataforma</dt><dd>Android</dd></div>
+        <div><dt data-i18n="factStack">Tecnologías</dt><dd>Kotlin · Jetpack Compose · Room</dd></div>
+      </dl>
+    </section>
+
+    <section class="section section-wrap about-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="aquaProblemEyebrow">EL PUNTO DE PARTIDA</p>
+        <h2 data-i18n="aquaProblemTitle">Un problema pequeño, fácil de olvidar.</h2>
+      </div>
+      <div class="about-content">
+        <p class="body-copy" data-i18n="aquaProblemBody">Beber suficiente agua es sencillo en teoría y fácil de olvidar en la práctica. Muchas apps de recordatorios resultan ruidosas o demasiado complejas. AquaReminder busca lo contrario: una experiencia tranquila que te acompañe sin molestar.</p>
+      </div>
+    </section>
+
+    <section class="section section-wrap">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="aquaFeaturesEyebrow">QUÉ OFRECE</p>
+        <h2 data-i18n="aquaFeaturesTitle">Hábitos claros, sin ruido.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="toolbox-item"><span class="toolbox-number">01</span><h3 data-i18n="feature1Title">Seguimiento diario</h3><p data-i18n="feature1Body">Registra tu consumo de agua en un toque y consulta tu progreso del día.</p></article>
+        <article class="toolbox-item"><span class="toolbox-number">02</span><h3 data-i18n="feature2Title">Recordatorios</h3><p data-i18n="feature2Body">Avisos a lo largo del día para que no se te olvide beber.</p></article>
+        <article class="toolbox-item"><span class="toolbox-number">03</span><h3 data-i18n="feature3Title">Diseño tranquilo</h3><p data-i18n="feature3Body">Una interfaz limpia, pensada para usarse en pocos segundos.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-wrap about-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="aquaBuildEyebrow">CÓMO ESTÁ HECHA</p>
+        <h2 data-i18n="aquaBuildTitle">Tecnología al servicio de la simplicidad.</h2>
+      </div>
+      <div class="about-content">
+        <p class="body-copy" data-i18n="aquaBuildBody">Construida con Kotlin y Jetpack Compose, usa Room para guardar los datos en el dispositivo y sigue una arquitectura limpia para poder evolucionar con facilidad.</p>
+        <ul class="tag-list" aria-label="Tecnologías">
+          <li>Android</li><li>Kotlin</li><li>Jetpack Compose</li><li>Room</li>
+        </ul>
+        <p class="project-note" data-i18n="aquaStatusNote">El proyecto está en desarrollo. Pronto añadiré capturas y más detalles técnicos.</p>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap">
+      <p class="eyebrow" data-i18n="aquaCtaEyebrow">¿TE INTERESA?</p>
+      <h2 data-i18n-html="aquaCtaTitle">Hablemos de<br><span class="accent">AquaReminder.</span></h2>
+      <p data-i18n="aquaCtaBody">Si quieres saber más sobre el proyecto o cómo lo estoy construyendo, escríbeme.</p>
+      <a class="button button-primary" href="mailto:dmolaya.dev@gmail.com?subject=AquaReminder" data-i18n-html="contactCta">Escríbeme <span class="button-arrow" aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="brand" href="index.html#home"><span class="brand-mark">d<span>.</span></span><span>David Muñoz Olaya</span></a>
+    <p>© <span id="year"></span> David Muñoz Olaya. <span data-i18n="footer">Software útil, pensado para las personas.</span></p>
+    <a href="#main" class="back-top" data-i18n="backTop">Volver arriba ↑</a>
+  </footer>
+</body>
+</html>

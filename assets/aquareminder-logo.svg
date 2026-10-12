@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="AquaReminder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4fd1b8"/>
+      <stop offset="1" stop-color="#1f6f68"/>
+    </linearGradient>
+    <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9f4ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="38" fill="url(#bg)"/>
+  <path d="M80 30C80 30 46 70 46 96a34 34 0 0 0 68 0C114 70 80 30 80 30Z" fill="url(#drop)"/>
+  <path d="M64 98a16 16 0 0 0 14 16" fill="none" stroke="#4fd1b8" stroke-width="6" stroke-linecap="round"/>
+</svg>
